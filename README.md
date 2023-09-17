@@ -1,6 +1,6 @@
-# api_template_io_api_reference
+# APITemplate.io
 
-ApiTemplateIoApiReference - JavaScript client for api_template_io_api_reference
+ApiTemplateIoApiReference - JavaScript client for APITemplate.io
 # Introduction
 
 
@@ -87,7 +87,7 @@ To publish the library as a [npm](https://www.npmjs.com/), please follow the pro
 Then install it via:
 
 ```shell
-npm install api_template_io_api_reference----save
+npm install APITemplate.io----save
 ```
 
 Finally, you need to build the module:
@@ -110,7 +110,7 @@ Next, [link](https://docs.npmjs.com/cli/link) it globally in npm with the follow
 npm link
 ```
 
-To use the link you just defined in your project, switch to the directory you want to use your api_template_io_api_reference from, and run:
+To use the link you just defined in your project, switch to the directory you want to use your APITemplate.io from, and run:
 
 ```shell
 npm link /path/to/<JAVASCRIPT_CLIENT_DIR>
@@ -166,7 +166,7 @@ module: {
 Please follow the [installation](#installation) instruction and execute the following JS code:
 
 ```javascript
-var ApiTemplateIoApiReference = require('api_template_io_api_reference');
+var ApiTemplateIoApiReference = require('APITemplate.io');
 
 var defaultClient = ApiTemplateIoApiReference.ApiClient.instance;
 // Configure API key authorization: ApiKeyAuth
